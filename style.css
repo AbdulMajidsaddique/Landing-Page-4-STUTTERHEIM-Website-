@@ -217,14 +217,117 @@ html,body{
   #content #item3{
     width: 25%;
     height: 100%;
-    background-color: orangered;
+    border-right: 1px solid #000;
+    padding:0 0.5vw;
+  }
+  #content #item3 #item3img{
+    width: 100%;
+    height:50vh;
+  }
+  #content #item3 #item3img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #content #item3 h1{
+    font-family: monument;
+    line-height: 4vh;
+    font-size: 2vw;
+    font-weight: 800;
+  }
+  #content #item3 #date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    margin-top: 1vh;
+  }
+  #content #item3 #date h3{
+    font-size: 1.2vw;
+    font-weight: 400;
+  }
+  #content #item3 #date #line{
+    width: 50%;
+    height: 0.3vh;
+    background-color: black;
+  }
+  #content #item3 p{
+    font-size: 1vw;
+    line-height: 2.5vh;
+    text-align: justify;
+    width: 90%;
+    margin-top: 1vh;
+  }
+  #content #item3 #colorbox{
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
+  }
+  #content #item3 #colorbox h3{
+    font-size: 1.2vw;
+    padding: 0.8vw 1vw;
+    color: #fff;
+  }
+  #content #item3 #colorbox h3 span{
+    color: #9b8226;
   }
   #content #item4{
     width: 25%;
     height: 100%;
-    background-color: purple;
+    padding: 0 0.5vw;
   }
-
+  #content #item4 h1{
+    line-height:6vh ;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  #content #item4 #date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    margin-top: 1vh;
+  }
+  #content #item4 #date h3{
+    font-size: 1.2vw;
+    font-weight: 400;
+  }
+  #content #item4 #date #line{
+    width: 50%;
+    height: 0.3vh;
+    background-color: black;
+  }
+  #content #item4 #colorbox{
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
+  }
+  #content #item4 #colorbox h3{
+    font-size: 1.2vw;
+    padding: 0.8vw 1vw;
+    color: #fff;
+  }
+  #content #item4 #colorbox h3 span{
+    color: #9b8226;
+  }
+  #content #item4 p{
+    font-size: 1vw;
+    line-height: 2.5vh;
+    text-align: justify;
+    width: 90%;
+    margin-top: 1vh;
+  }
+  #content #item4 #item4img{
+    width: 100%;
+    height:44vh;
+  }
+  #content #item4 #item4img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
   #content2{
     width: 100%;
     height: 30vh;
